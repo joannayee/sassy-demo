@@ -1,0 +1,60 @@
+/*BODY */
+body {
+    font-family: 'adobe-caslon-pro', serif; 
+    font-size: 100%;
+    line-height: 1.4;
+}    
+
+/* HEADINGS */
+h1, h2, h3 {
+    margin: .5em 0;
+}
+h1 {
+    font-size: 3em;
+    line-height: 1em;
+}
+h2 {
+    font-size: 2em;
+    line-height: 1.1em;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+p {
+    max-width: 35em;
+}
+/* Horizontal Rule*/
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(0,0,0,.15);
+    margin: 3em 0;
+}
+/* TYPE SPECIMEN  */
+.mainhead {
+font-size: 6em;
+color: $color-accent;
+margin-bottom: 0;
+}
+.sectionhead {
+    text-align: center;
+    font-family: $body-fontfamily;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    line-height: 1;
+    margin-bottom: 3em;
+}
+.subhead {
+font-family: $body-fontfamily;
+color: $color-midgrey;
+margin-bottom: 1em;
+}
+.meta {
+    display: block;
+    color: $color-midgrey;
+    font-size: .7em;
+    margin: 0 0 2em 0;
+}
