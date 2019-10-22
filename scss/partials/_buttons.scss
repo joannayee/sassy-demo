@@ -1,33 +1,47 @@
 /* BUTTONS */
 
-button, 
+button,
 .button {
     font-size: inherit;
     font-family: $body-fontfamily;
-    background-color: $color-links;
     line-height: 1;
-    color: #fff;
-    padding: 1em;
+    background-color: $color-links;
+    color: #fff; 
+    padding: 1em 2em;
     display: inline-block;
     margin: .5em;
     border-radius: .5em;
     border: 1px solid $color-links;
     cursor: pointer;
-
-&:hover {
-    background-color: $color-links-dark;
-    color: #fff;
-    border-color: $color-links-dark;
-}
-
-&.alt {
-background-color: #fff;
-color: $color-links-dark;
+    text-decoration: none;
 
     &:hover {
         background-color: $color-links-dark;
-        color: #fff;
+        color: #fff; 
         border-color: $color-links-dark;
     }
-}
+
+    &.alt {
+        color: $color-links-dark;
+        background-color: #fff; 
+
+        &:hover {
+            background-color: $color-links-dark;
+            color: #fff; 
+            border-color: $color-links-dark;
+        }
+
+    }
+
+    &.dark {
+        color: #fff;
+        background-color: transparent; 
+        border-color: #fff;
+
+        &:hover {
+            background-color: #fff;
+            color: #000; 
+        }
+    }
+
 }

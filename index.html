@@ -21,7 +21,8 @@
       <h1><a href="#">Sassy Base</a></h1>
     </div>
 
-    <nav class="site-nav">
+    <nav class="site-nav ">
+      <div class="menu-button">Menu</div>
       <ul>
 
         <li><a href="#typography"> Typography</a></li>
@@ -33,27 +34,15 @@
 
   <section class="hero">
     <div class="container">
-      <h2>Joanna's Sassy Bass</h2>
-      <p>This is a simple, single page website, built with SASS.</p>
-      <a class="button">Go to Typography</a>
+      <h2>Joanna's Sassy Demo</h2>
+      <p>This is a custom single page website, built by modifiying SASSY Base.</p>
+      <a class=" button dark">Go to Typography</a>
     </div>
   </section>
 
   <section id="typography">
     <div class="container">
       <h3 class="sectionhead">Typography</h3>
-      <small class="meta">Typography Scale</small>
-      <h1>Heading 1</h1>
-      <h2>Heading 2</h2>
-      <h3>Heading 3</h3>
-
-      <p>But we’ve met before. That was a <em>long time ago,</em> I was a kid at St. Swithin’s, used to be funded by
-        <strong>the Wayne Foundation.</strong> It’s an orphanage. My mum died when I was small, it was a <a href="#">
-          accident.</a> I don’t remember it. My dad got shot a couple of years later for a gambling debt. Oh I remember
-        that one just fine. Not a lot of people know what it feels like to be angry in your bones. I mean they
-        understand. The fosters parents. Everybody understands, for a while. Then they want the angry little kid to do
-        something he knows he can’t do, move on. After a while they stop understanding. They send the angry kid to a
-        boy’s home, I figured it out too late. </p>
 
       <h1 class="mainhead">Headline Title</h1>
       <h2 class="subhead">This is a subheader</h2>
@@ -65,90 +54,41 @@
         on your face before. It’s the same one I taught myself. I don’t why you took the fault for Dent’s murder but I’m
         still a believer in the <a href="#">Batman.</a> Even if you’re not…</p>
 
-      <button>This is a button.</button>
       <a class="button">This is a Button Link</a>
       <a class="button alt">This is a Button Link.</a>
 
-      <hr />
 
-      <small class="meta">Images</small>
-
-      <img src="img/placeholder-1.gif" alt="Place holder image" />
     </div>
   </section>
 
-  <hr />
-
-  <section id="layout">
+  <section id="layout" class="split-crossed-right">
     <div class="container">
-      <h3 class="sectionhead">Layout</h3>
-      <small class="meta">Grid</small>
-      <div class="row demo ">
-        <div class="column">Column</div>
-      </div>
-      <div class="row demo ">
-        <div class="column one-half">&frac12; Column</div>
-        <div class="column one-half"> &frac12; Column</div>
-      </div>
 
-      <div class="row demo">
-        <div class="column one-third"> &frac13; Column</div>
-        <div class="column one-third"> &frac13; Column</div>
-        <div class="column one-third"> &frac13; Column</div>
+      <div class="image-block">
+        <img src="https://via.placeholder.com/1500" alt="placeholder">
       </div>
-
-      <div class="row demo ">
-        <div class="column one-third">&frac13; Column</div>
-        <div class="column two-third"> &frac23; Column</div>
-
+      <div class="text-block">
+        <h4>Text on the right</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur corrupti assumenda veritatis ut
+          aliquid tempora earum magni ullam, voluptates adipisci eos modi aspernatur autem!</p>
       </div>
-      <div class="row demo">
-        <div class="column one-fourth">&frac14; Column</div>
-        <div class="column one-fourth">&frac14; Column</div>
-        <div class="column one-fourth">&frac14; Column</div>
-        <div class="column one-fourth">&frac14; Column</div>
+    </div>
+  </section>
 
+  <section class="split-crossed-reversed">
+    <div class="container">
+
+      <div class="image-block">
+        <img src="https://via.placeholder.com/1500" alt="placeholder">
       </div>
-
-      <hr />
-      <div class="row">
-        <div class="column one-half">
-          <img src="https://via.placeholder.com/1500" alt="placeholder">
-        </div>
-        <div class="column one-half">
-          <h4>Text on the right</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur corrupti assumenda veritatis ut
-            aliquid tempora earum magni ullam, voluptates adipisci eos modi aspernatur autem!</p>
-        </div>
-      </div>
-
-      <div class="row swap">
-        <div class="column one-half">
-          <img src="https://via.placeholder.com/1500" alt="placeholder">
-        </div>
-        <div class="column one-half">
-          <h4>Text on the left</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur corrupti assumenda veritatis ut
-            aliquid tempora earum magni ullam, voluptates adipisci eos modi aspernatur autem!</p>
-        </div>
-      </div>
-
-      <div class="row center">
-        <div class="column one-half">
-          <img src="https://via.placeholder.com/1500" alt="placeholder">
-        </div>
-        <div class="column one-half">
-          <h4>Text on the center</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur corrupti assumenda veritatis ut
-            aliquid tempora earum magni ullam, voluptates adipisci eos modi aspernatur autem!</p>
-        </div>
+      <div class="text-block">
+        <h4>Text on the left</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur corrupti assumenda veritatis ut
+          aliquid tempora earum magni ullam, voluptates adipisci eos modi aspernatur autem!</p>
       </div>
     </div>
 
   </section>
-  <div class="container">
-
-  </div>
 
   <footer class="site-footer">
     <nav class="site-nav">
@@ -168,6 +108,7 @@
   <script>
     var scroll = new SmoothScroll('a[href*="#"]');
   </script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
