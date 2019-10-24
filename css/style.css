@@ -27,7 +27,7 @@ body {
 */
 /*BODY */
 body {
-  font-family: 'adobe-caslon-pro', serif;
+  font-family: "Roboto", sans-serif;
   font-size: 100%;
   line-height: 1.4; }
 
@@ -65,7 +65,7 @@ hr {
 
 .sectionhead {
   text-align: center;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: .2em;
@@ -73,7 +73,7 @@ hr {
   margin-bottom: 3em; }
 
 .subhead {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: black;
   margin-bottom: 1em; }
 
@@ -87,7 +87,7 @@ hr {
 button,
 .button {
   font-size: inherit;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   line-height: 1;
   background-color: #069;
   color: #fff;
@@ -217,7 +217,7 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .site-header h1, .site-footer h1 {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 1.5em;
     margin: .5em 0 0 0; }
   .site-header a, .site-footer a {
@@ -240,7 +240,7 @@ section {
 
 /* Site Nav */
 .site-nav {
-  position: fixed;
+  position: absolute;
   display: -ms-grid;
   display: grid;
   place-items: center;
@@ -257,7 +257,10 @@ section {
     display: block;
     padding: 1em; }
   .site-nav.active {
-    height: 100%; }
+    position: fixed;
+    height: 100%;
+    z-index: 100;
+    background: red; }
     .site-nav.active ul {
       display: block; }
 

@@ -35,7 +35,7 @@
  /* Site Nav */
 
  .site-nav { 
-     position: fixed;
+     position: absolute;
      display: grid;
      place-items: center;
      width: 100%;
@@ -55,10 +55,13 @@
          padding : 1em;
      }
      &.active {
+        position: fixed;
         height: 100%;
+        z-index: 100;
          ul{ 
              display: block;
          }
+         background: red;
      }
  }
  /*Menu Button*/
