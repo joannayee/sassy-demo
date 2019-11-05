@@ -1,5 +1,5 @@
 /* Site header */
- .site-header, .site-footer{
+ .site-header, .site-footer {
      background-color: $color-accent;
      padding: 1em;
      display: flex;
@@ -15,7 +15,7 @@
         color: #fff;
         text-decoration: none;
     }
- }
+ } 
  /* Site Header*/ 
 .site-header {
     background-color: transparent;
@@ -24,7 +24,7 @@
 }
  /* Section */
  section {
-    padding: 6e, 0;
+    padding: 6em, 0;
     min-height: 100vh;
     display: grid;
     place-items: center;
@@ -36,6 +36,29 @@
     right: 2em;
     cursor: pointer;
     z-index: 200;
+}
+.menu-button.navicon {
+    top: 1em;
+    right: 1em;
+    line-height: 1;
+    font-size: 1.5em;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    &:before {
+        display: inline-block;
+        content:"\2630";
+        width: 1em;
+        height: 1em;
+        transform: rotate(0);
+        transition: .4s all ease-out;
+    } 
+}
+
+.active .menu-button.navicon:before {
+    content: "\2715";
+    transform: rotate(-90deg);
 }
 
  /* Site Nav */
@@ -173,3 +196,31 @@ h2 {
  }
  }
   
+/* Scroll trigger animation*/ 
+[data-scroll] {
+    transition: opacity 1s;
+}
+[data-scroll="in"] {
+opacity: 1;
+}
+[data-scroll="out"] {
+opacity: 0;
+}
+// Split cross left animation// 
+[data-scroll].split-crossed-reversed .image-block,
+[data-scroll].split-crossed-reversed .text-block{
+    transition: 1s ease-out transform;
+}
+
+[data-scroll="in"].split-crossed-reversed .image-block{
+    transform: translateX(0);
+}
+[data-scroll="in"].split-crossed-reversed .text-block{
+    transform: translateX(-2em);
+}
+[data-scroll="out"].split-crossed-reversed .image-block{
+    transform: translateX(2em);
+}
+[data-scroll="out"].split-crossed-reversed .text-block{
+    transform: translateX(-4em);
+}

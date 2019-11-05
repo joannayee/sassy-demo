@@ -232,7 +232,7 @@ body {
 
 /* Section */
 section {
-  padding: 6e, 0;
+  padding: 6em, 0;
   min-height: 100vh;
   display: -ms-grid;
   display: grid;
@@ -245,6 +245,32 @@ section {
   right: 2em;
   cursor: pointer;
   z-index: 200; }
+
+.menu-button.navicon {
+  top: 1em;
+  right: 1em;
+  line-height: 1;
+  font-size: 1.5em;
+  width: 1em;
+  height: 1em;
+  overflow: hidden; }
+  .menu-button.navicon:before {
+    display: inline-block;
+    content: "\2630";
+    width: 1em;
+    height: 1em;
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: .4s all ease-out;
+    -o-transition: .4s all ease-out;
+    transition: .4s all ease-out; }
+
+.active .menu-button.navicon:before {
+  content: "\2715";
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
 
 /* Site Nav */
 .site-header .site-nav {
@@ -382,3 +408,41 @@ section {
     -webkit-transform: translateX(2em);
     -ms-transform: translateX(2em);
     transform: translateX(2em); } }
+
+/* Scroll trigger animation*/
+[data-scroll] {
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s; }
+
+[data-scroll="in"] {
+  opacity: 1; }
+
+[data-scroll="out"] {
+  opacity: 0; }
+
+[data-scroll].split-crossed-reversed .image-block,
+[data-scroll].split-crossed-reversed .text-block {
+  -webkit-transition: 1s ease-out transform;
+  -o-transition: 1s ease-out transform;
+  transition: 1s ease-out transform; }
+
+[data-scroll="in"].split-crossed-reversed .image-block {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0); }
+
+[data-scroll="in"].split-crossed-reversed .text-block {
+  -webkit-transform: translateX(-2em);
+  -ms-transform: translateX(-2em);
+  transform: translateX(-2em); }
+
+[data-scroll="out"].split-crossed-reversed .image-block {
+  -webkit-transform: translateX(2em);
+  -ms-transform: translateX(2em);
+  transform: translateX(2em); }
+
+[data-scroll="out"].split-crossed-reversed .text-block {
+  -webkit-transform: translateX(-4em);
+  -ms-transform: translateX(-4em);
+  transform: translateX(-4em); }
