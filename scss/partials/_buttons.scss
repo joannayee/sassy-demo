@@ -6,7 +6,7 @@ button,
     font-family: $body-fontfamily;
     line-height: 1;
     background-color: $color-links;
-    color: #fff; 
+    color: black; 
     padding: 1em 2em;
     display: inline-block;
     margin: .5em;
@@ -23,20 +23,20 @@ button,
 
     &.alt {
         color: $color-links-dark;
-        background-color: #fff; 
+        background-color: black; 
 
         &:hover {
             background-color: $color-links-dark;
-            color: #fff; 
+            color: black; 
             border-color: $color-links-dark;
         }
 
     }
 
     &.dark {
-        color: #fff;
+        color: black;
         background-color: transparent; 
-        border-color: #fff;
+        border-color: black;
 
         &:hover {
             background-color: #fff;
@@ -45,3 +45,48 @@ button,
     }
 
 }
+.btn {
+    display: block;
+    margin: 3em;
+    padding: 1.3em 1.3em 1em 1.3em;
+    text-align: center;
+    justify-content: center;
+    width: 200px ;
+    font-family: 'Gayathri', sans-serif;
+    margin:0 auto;
+    font-size: 0.8em;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    border-radius: 10px;
+    text-decoration: none;
+   }
+  
+  /* <- Magic Stuff Start */
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+
+}
+  
+  .btn-1 {
+    background-image: linear-gradient(to right, #973F97 5%, #7EBFE3 35% , #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  }
+  
+  .btn-2 {
+    background-image: linear-gradient(to right, #973F97 5%, #7EBFE3 35% , #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  
+  }
+  
+  .btn-3 {
+    background-image: linear-gradient(to right, #973F97 5%, #7EBFE3 30% , #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  }
+  
+  .btn-4 {
+    background-image: linear-gradient(to right, #973F97 5%, #7EBFE3 30% , #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+ 
+}
+
+  

@@ -1,5 +1,5 @@
 body {
-  background-color: #fff; }
+  background-color: #c1e6f4; }
 
 /* CSS TABLE OF CONTENTS *
 
@@ -27,7 +27,7 @@ body {
 */
 /*BODY */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "gayathri", sans-serif;
   font-size: 100%;
   line-height: 1.4; }
 
@@ -57,7 +57,7 @@ hr {
   background: rgba(0, 0, 0, 0.15);
   margin: 3em 0; }
 
-/* TYPE SPECIMEN  */
+/* TYPE SPECIMEN*/
 .mainhead {
   font-size: 6em;
   color: #ff9900;
@@ -65,7 +65,7 @@ hr {
 
 .sectionhead {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "gayathri", sans-serif;
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: .2em;
@@ -73,7 +73,7 @@ hr {
   margin-bottom: 3em; }
 
 .subhead {
-  font-family: "Roboto", sans-serif;
+  font-family: "gayathri", sans-serif;
   color: black;
   margin-bottom: 1em; }
 
@@ -87,10 +87,10 @@ hr {
 button,
 .button {
   font-size: inherit;
-  font-family: "Roboto", sans-serif;
+  font-family: "gayathri", sans-serif;
   line-height: 1;
   background-color: #069;
-  color: #fff;
+  color: black;
   padding: 1em 2em;
   display: inline-block;
   margin: .5em;
@@ -106,21 +106,72 @@ button,
   button.alt,
   .button.alt {
     color: #685406;
-    background-color: #fff; }
+    background-color: black; }
     button.alt:hover,
     .button.alt:hover {
       background-color: #685406;
-      color: #fff;
+      color: black;
       border-color: #685406; }
   button.dark,
   .button.dark {
-    color: #fff;
+    color: black;
     background-color: transparent;
-    border-color: #fff; }
+    border-color: black; }
     button.dark:hover,
     .button.dark:hover {
       background-color: #fff;
       color: #000; }
+
+.btn {
+  display: block;
+  margin: 3em;
+  padding: 1.3em 1.3em 1em 1.3em;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 200px;
+  font-family: 'Gayathri', sans-serif;
+  margin: 0 auto;
+  font-size: 0.8em;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  border-radius: 10px;
+  text-decoration: none; }
+
+/* <- Magic Stuff Start */
+.btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */ }
+
+.btn-1 {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(5%, #973F97), color-stop(35%, #7EBFE3), color-stop(50%, #1F53B4), color-stop(30%, #1F53B4), color-stop(95%, #973F97));
+  background-image: -webkit-linear-gradient(left, #973F97 5%, #7EBFE3 35%, #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  background-image: -o-linear-gradient(left, #973F97 5%, #7EBFE3 35%, #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  background-image: linear-gradient(to right, #973F97 5%, #7EBFE3 35%, #1F53B4 50%, #1F53B4 30%, #973F97 95%); }
+
+.btn-2 {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(5%, #973F97), color-stop(35%, #7EBFE3), color-stop(50%, #1F53B4), color-stop(30%, #1F53B4), color-stop(95%, #973F97));
+  background-image: -webkit-linear-gradient(left, #973F97 5%, #7EBFE3 35%, #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  background-image: -o-linear-gradient(left, #973F97 5%, #7EBFE3 35%, #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  background-image: linear-gradient(to right, #973F97 5%, #7EBFE3 35%, #1F53B4 50%, #1F53B4 30%, #973F97 95%); }
+
+.btn-3 {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(5%, #973F97), color-stop(30%, #7EBFE3), color-stop(50%, #1F53B4), color-stop(30%, #1F53B4), color-stop(95%, #973F97));
+  background-image: -webkit-linear-gradient(left, #973F97 5%, #7EBFE3 30%, #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  background-image: -o-linear-gradient(left, #973F97 5%, #7EBFE3 30%, #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  background-image: linear-gradient(to right, #973F97 5%, #7EBFE3 30%, #1F53B4 50%, #1F53B4 30%, #973F97 95%); }
+
+.btn-4 {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(5%, #973F97), color-stop(30%, #7EBFE3), color-stop(50%, #1F53B4), color-stop(30%, #1F53B4), color-stop(95%, #973F97));
+  background-image: -webkit-linear-gradient(left, #973F97 5%, #7EBFE3 30%, #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  background-image: -o-linear-gradient(left, #973F97 5%, #7EBFE3 30%, #1F53B4 50%, #1F53B4 30%, #973F97 95%);
+  background-image: linear-gradient(to right, #973F97 5%, #7EBFE3 30%, #1F53B4 50%, #1F53B4 30%, #973F97 95%); }
 
 img {
   max-width: 100%;
@@ -212,16 +263,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #fff;
+  color: black;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between; }
   .site-header h1, .site-footer h1 {
-    font-family: "Roboto", sans-serif;
+    font-family: "gayathri", sans-serif;
     font-size: 1.5em;
     margin: .5em 0 0 0; }
   .site-header a, .site-footer a {
-    color: #fff;
+    color: black;
     text-decoration: none; }
 
 /* Site Header*/
@@ -229,14 +280,6 @@ body {
   background-color: transparent;
   position: absolute;
   width: 100%; }
-
-/* Section */
-section {
-  padding: 6em, 0;
-  min-height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  place-items: center; }
 
 /*Menu Button*/
 .menu-button {
@@ -249,7 +292,7 @@ section {
 .menu-button.navicon {
   top: 1em;
   right: 1em;
-  line-height: 1;
+  line-height: 1.4;
   font-size: 1.5em;
   width: 1em;
   height: 1em;
@@ -307,7 +350,7 @@ section {
     position: fixed;
     height: 100%;
     z-index: 100;
-    background: red; }
+    background: #d0dddf; }
     .site-header .site-nav.active ul {
       top: 50%; }
     .site-header .site-nav.active li {
@@ -337,7 +380,7 @@ section {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 6em;
-  background-color: #000; }
+  background-color: #c1e6f4; }
 
 .site-footer .site-nav ul {
   display: -webkit-box;
@@ -349,9 +392,9 @@ section {
   display: block;
   padding: 1em; }
 
-/* Sections */
+/* Section */
 section {
-  padding: 3em 0;
+  padding: 6em, 0;
   min-height: 100vh;
   display: -ms-grid;
   display: grid;
@@ -359,10 +402,8 @@ section {
 
 .hero {
   padding: 6em 0;
-  background: black;
-  background-image: cover;
-  margin-bottom: 3em;
-  color: white; }
+  background: white;
+  color: black; }
   .hero p {
     margin-right: auto; }
   .hero h2 {

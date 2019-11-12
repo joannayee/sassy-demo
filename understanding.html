@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        GriefSpace </title>
+
+    <!-- MAIN CSS FILE -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!--FONTS-->
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i|Gayathri:100,400,700&display=swap"
+        rel="stylesheet">
+
+    <!-- VIEWPORT FOR MOBILE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="site-id">
+            <h1><a href="#">GriefSpace</a></h1>
+        </div>
+
+        <nav class="site-nav ">
+            <div class="menu-button navicon">Menu</div>
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#typography"> Understanding Grief</a></li>
+                <li><a href="#layout"> Get Support</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" data-scroll="out">
+        <div class="container">
+            <!-- <h2>Joanna's Sassy Demo</h2>
+      <p>This is a custom single page website, built by modifiying SASSY Base.</p> -->
+            <img src="img/home_crane.gif">
+            <a href="#crane" class="btn btn-1 dark">Welcome</a>
+        </div>
+    </section>
+
+    <!-- <section id="typography" data-scroll="out">
+    <div class="container">
+      <h3 class="sectionhead">Typography</h3>
+
+      <h1 class="mainhead">Headline Title</h1>
+      <h2 class="subhead">This is a subheader</h2>
+
+      <p>I learned to hide the anger, and practice smiling in the mirror. It’s like putting on a <em>mask.</em> So you
+        showed up this one day, in a cool car, pretty girl on your arm. We were so excited! Bruce Wayne, <strong>
+          billionaire orphan?</strong> We used to make up stories about you man, legends and you know with the other
+        kids, that’s all it was, just stories, but right when I saw you, I knew who you really were. I’d seen that look
+        on your face before. It’s the same one I taught myself. I don’t why you took the fault for Dent’s murder but I’m
+        still a believer in the <a href="#">Batman.</a> Even if you’re not…</p>
+
+      <a class="button">This is a Button Link</a>
+      <a class="button alt">This is a Button Link.</a>
+
+
+    </div>
+  </section>
+
+  <section id="layout" class="split-crossed-right" data-scroll="out">
+    <div class="container">
+      <div class="image-block">
+        <img src="https://via.placeholder.com/1500" alt="placeholder">
+      </div>
+      <div class="text-block">
+        <h4>Text on the right</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur corrupti assumenda veritatis ut
+          aliquid tempora earum magni ullam, voluptates adipisci eos modi aspernatur autem!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="split-crossed-reversed" data-scroll="out">
+    <div class="container">
+
+      <div class="image-block">
+        <img src="https://via.placeholder.com/1500" alt="placeholder">
+      </div>
+      <div class="text-block">
+        <h4>Text on the left</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur corrupti assumenda veritatis ut
+          aliquid tempora earum magni ullam, voluptates adipisci eos modi aspernatur autem!</p>
+      </div>
+    </div>
+  </section> -->
+
+    <footer class="site-footer">
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#top"> Home</a></li>
+                <li><a href="#typography"> Understanding Grief</a></li>
+                <li><a href="#layout"> Get Support</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!--Smooth Scroll-->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="path/to/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <!--Scroll Out-->
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script src="js/scroll-out.min.js"></script>
+    <script>
+        ScrollOut(
+            {
+                threshold: 0.4
+            }
+        );
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
