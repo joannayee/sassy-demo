@@ -3,16 +3,6 @@
 // 1/2 COL, 1/3 COL, ETC
 
 $gutter-width: 2%;
-<<<<<<< HEAD
-=======
-// This is a semantic grid// 
-.row {
-    // padding: 1% 0;
-    .column {
-        margin-bottom: 2%;
-    }
-}
->>>>>>> b6ff6c304b4bd2189dd0438b21cc71cf6422e604
 
 .row  .column { margin-bottom: $gutter-width; } 
 
