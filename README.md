@@ -1,4 +1,4 @@
-# mybase
-My Art 258 Class Exercise
+# Sassy Demo 2019
+My ART 258 Class Exercise from Fall 2019
 
-[View Demo](https://joannayee.github.io/sassy-demo/) 
+[View Demo](https://johndoenma.github.io/sassydemo-2019/)

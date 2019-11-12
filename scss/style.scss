@@ -1,31 +1,27 @@
 // VARIABLES
-$bodybackground: #fff;
-$body-fontfamily: 'Roboto', sans-serif;
-$color-text-body: rgba(94, 6, 6, 0.85);
-$color-midgrey: rgba(0,0,0,5);
+$body-fontfamily: 'acumin-pro', Helvetica, arial, sans-serif;
+$heading-fontfamily: 'kepler-std', georgia, serif;
+
+// COLORS
+$color-text-body: rgba(0,0,0,.85);
+$color-midgrey: rgba(0,0,0,.5);
 $color-links: #069;
-$color-links-dark: #685406; 
+$color-links-dark: #035;  
 
-$color-accent: rgba(255,153,0,1); 
-$color-hero-bg: rgba(0,0,0,1);
+$color-accent: rgb(172, 39, 0);
+$color-hero-bg:  rgba(0, 0, 0, 1);
 
-
-body {
-    background-color: $bodybackground; 
-}
-
-//BREAKPOINTS   
+// BREAKPOINTS
 $breakpoint-small: 768px;
 $breakpoint-medium: 1050px;
 $breakpoint-large: 1250px;
 
 // IMPORT PARTIALS
-@import "partials/toc"; 
-@import "partials/typography";  
-@import "partials/buttons"; 
-@import "partials/media"; 
-@import "partials/layout"; 
-@import "partials/grid";  
-@import "partials/structure";  
-
-     
+@import 'partials/toc';
+@import 'partials/typography'; 
+@import 'partials/buttons'; 
+@import 'partials/media';    
+@import 'partials/layout';    
+@import 'partials/grid';    
+@import 'partials/structure'; 
+  
