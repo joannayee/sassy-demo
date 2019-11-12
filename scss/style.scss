@@ -8,10 +8,18 @@ $color-midgrey: rgba(0,0,0,.5);
 $color-links: #069;
 $color-links-dark: #035;  
 
+<<<<<<< HEAD
 $color-accent: rgb(172, 39, 0);
 $color-hero-bg:  rgba(0, 0, 0, 1);
 
 // BREAKPOINTS
+=======
+body {
+    background-color: $bodybackground; 
+}
+ 
+//BREAKPOINTS   
+>>>>>>> b6ff6c304b4bd2189dd0438b21cc71cf6422e604
 $breakpoint-small: 768px;
 $breakpoint-medium: 1050px;
 $breakpoint-large: 1250px;
