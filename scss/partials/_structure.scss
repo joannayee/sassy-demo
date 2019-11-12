@@ -114,7 +114,7 @@
     justify-content: center;
     margin-top: 6em;
     background-color: #000;
-}
+} 
 .site-footer .site-nav {
     ul {
         display: flex;
@@ -126,7 +126,7 @@
     
     }
 }
-/* Sections */
+/* Sections */ 
 
 section {
     padding: 3em 0;
@@ -138,7 +138,6 @@ section {
 .hero {
     padding: 6em 0;
     background: $color-hero-bg;
-    // background-image: url("https://picsum.photos/id/1019/1600/1200");
     background-image: cover;
     margin-bottom: 3em;
     color: white;
